@@ -7,6 +7,24 @@
 </head>
 
 <body>
+	 <form action="/submit" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" minlength=3 maxlength=50 required>
+    
+        <label for="portfolio">Portfolio</label>
+        <input type="url" id="portfolio" required>
+    
+        <label for="favColor">Name</label>
+        <input type="color" id="favColor" required>
+    
+        
+        <label for="likeness">Likeness</label>
+        <input type="range" id="likeness" min=1 max=100 required>
+
+        
+        <button type="submit">submit</button>
+        
+        </form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
